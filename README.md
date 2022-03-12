@@ -25,17 +25,17 @@ fn main () {
 ### Hyphen validation patterns
 ### Optional
 ```rust
-let r = japhonex.OptionalHyphen(HyphenCkeck::Optional);
+let r = japhonex(HyphenCheck::Optional);
 // 0xx-xxxx-xxxx or 0xxxxxxxxxx
 ```
 ### Required
 ```rust
-let r = japhonex.OptionalHyphen(HyphenCkeck::Required);
+let r = japhonex(HyphenCheck::Required);
 // 0xx-xxxx-xxxx
 ```
 ### No hyphen
 ```rust
-let r = japhonex.OptionalHyphen(HyphenCkeck::NoCheck);
+let r = japhonex(HyphenCheck::NoCheck);
 // 0xxxxxxxxxx
 ```
 
